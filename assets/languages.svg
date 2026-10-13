@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="200" viewBox="0 0 560 200" role="img" aria-labelledby="t d">
+  <title id="t">Code written per language</title>
+  <desc id="d">Non-blank lines of code across five projects: Python 621, Java 484, C++ 353.</desc>
+  <style>
+    .card{fill:#ffffff;stroke:#d0d7de}
+    .h{font:600 16px -apple-system,Segoe UI,Helvetica,Arial,sans-serif;fill:#1f2328}
+    .s{font:12px -apple-system,Segoe UI,Helvetica,Arial,sans-serif;fill:#59636e}
+    .l{font:600 13px -apple-system,Segoe UI,Helvetica,Arial,sans-serif;fill:#1f2328}
+    .v{font:12px ui-monospace,SFMono-Regular,Consolas,monospace;fill:#59636e}
+    .track{fill:#eff2f5}
+    @media (prefers-color-scheme: dark){
+      .card{fill:#0d1117;stroke:#30363d}
+      .h,.l{fill:#e6edf3}
+      .s,.v{fill:#9198a1}
+      .track{fill:#161b22}
+    }
+  </style>
+  <rect class="card" x="0.5" y="0.5" width="559" height="199" rx="10"/>
+  <text class="h" x="24" y="36">Code written per language</text>
+  <text class="s" x="24" y="56">Non-blank lines across 5 public projects · 1,458 total</text>
+
+  <text class="l" x="24" y="96">Python</text>
+  <rect class="track" x="100" y="84" width="340" height="16" rx="4"/>
+  <rect x="100" y="84" width="340" height="16" rx="4" fill="#3776AB"/>
+  <text class="v" x="452" y="97">621 · 43%</text>
+
+  <text class="l" x="24" y="132">Java</text>
+  <rect class="track" x="100" y="120" width="340" height="16" rx="4"/>
+  <rect x="100" y="120" width="265" height="16" rx="4" fill="#ED8B00"/>
+  <text class="v" x="452" y="133">484 · 33%</text>
+
+  <text class="l" x="24" y="168">C++</text>
+  <rect class="track" x="100" y="156" width="340" height="16" rx="4"/>
+  <rect x="100" y="156" width="193" height="16" rx="4" fill="#00599C"/>
+  <text class="v" x="452" y="169">353 · 24%</text>
+</svg>
